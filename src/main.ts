@@ -4,7 +4,8 @@ import { Server } from 'socket.io';
 import cors from 'cors';
 import setUpSocketIO from './lib/socketIO';
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
+const HOST = process.env.HOST || '::';
 
 const main = async () => {
   const app = express();

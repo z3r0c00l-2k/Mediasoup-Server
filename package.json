@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "DEBUG=mediasoup:* nodemon src/index.ts"
+    "dev": "DEBUG=mediasoup:* nodemon src/index.ts",
+    "start": "ts-node src"
   },
   "dependencies": {
     "cors": "^2.8.5",
