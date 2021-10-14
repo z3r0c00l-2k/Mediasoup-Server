@@ -40,7 +40,8 @@ const mediaSoupConfig = {
     listenIps: [
       {
         ip: '0.0.0.0',
-        announcedIp: '127.0.0.1', // Replace by public IP address
+        // announcedIp: '127.0.0.1', // Replace by public IP address
+        announcedIp: '144.126.253.93', // Floating ip of Droplet
       },
     ] as TransportListenIp[],
     maxIncomeBitrate: 150000,
