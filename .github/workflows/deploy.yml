@@ -21,10 +21,10 @@ jobs:
           script: |
             mkdir -p apps
             cd apps
-            pm2 stop class-room-server
+            npx kill-port 8000
             rm -rf Mediasoup-Server
             git clone git@github.com:z3r0c00l-2k/Mediasoup-Server.git
             cd Mediasoup-Server
             yarn
-            pm2 start pm2.json
+            yarn start
             echo 'Deployment successful to digital ocean' 

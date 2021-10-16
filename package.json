@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "DEBUG=mediasoup:* nodemon src/index.ts",
-    "start": "ts-node src"
+    "start": "NODE_ENV=production ts-node src"
   },
   "dependencies": {
     "cors": "^2.8.5",
