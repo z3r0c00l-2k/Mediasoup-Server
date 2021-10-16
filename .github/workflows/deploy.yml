@@ -26,5 +26,5 @@ jobs:
             git clone git@github.com:z3r0c00l-2k/Mediasoup-Server.git
             cd Mediasoup-Server
             yarn
-            yarn start
+            NODE_ENV=production forever start --minUptime 1000 --spinSleepTime 1000 -c node_modules/ts-node/dist/bin.js src/index.ts
             echo 'Deployment successful to digital ocean' 
