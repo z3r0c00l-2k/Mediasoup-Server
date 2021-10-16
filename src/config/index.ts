@@ -39,7 +39,7 @@ const mediaSoupConfig = {
   webRtcTransport: {
     listenIps: [
       {
-        ip: process.env.NODE_ENV === 'production' ? '10.122.0.3' : '0.0.0.0',
+        ip: process.env.NODE_ENV === 'production' ? '10.47.0.6' : '0.0.0.0',
         announcedIp:
           process.env.NODE_ENV === 'production'
             ? '144.126.253.93'
