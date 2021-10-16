@@ -39,9 +39,9 @@ const mediaSoupConfig = {
   webRtcTransport: {
     listenIps: [
       {
-        ip: '0.0.0.0',
+        ip: '172.17.0.1',
         // announcedIp: '127.0.0.1', // Replace by public IP address
-        announcedIp: '144.126.253.93', // Floating ip of Droplet
+        announcedIp: '128.199.16.225', // Floating ip of Droplet
       },
     ] as TransportListenIp[],
     maxIncomeBitrate: 150000,
