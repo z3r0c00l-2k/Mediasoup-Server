@@ -42,7 +42,7 @@ const mediaSoupConfig = {
         ip: process.env.NODE_ENV === 'production' ? '10.122.0.3' : '0.0.0.0',
         announcedIp:
           process.env.NODE_ENV === 'production'
-            ? '128.199.16.225'
+            ? '144.126.253.93'
             : '127.0.0.1', // Floating ip of Droplet
       },
     ] as TransportListenIp[],
